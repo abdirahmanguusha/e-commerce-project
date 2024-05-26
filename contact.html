@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form id="contactForm" class="form">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <input type="text" class="Fname" placeholder="First name" required>
+            <input type="text" class="Lname" placeholder="Last name" required>
+            <input type="email" class="email" placeholder="Email" required>
+            <textarea name="message" class="text-area" placeholder="Message" required></textarea>
+            <button type="submit" id="submit">Send</button>
+        </div>
+    </form>
     
 </body>
 </html>

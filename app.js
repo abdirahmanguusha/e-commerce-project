@@ -27,9 +27,7 @@ function display(data) {
                 </div>
                
                
-                <p class="price">Price   $${item.price.toFixed(
-                  2
-                )}</p>
+                <p class="price">Price   $${item.price.toFixed(2)}</p>
                 <p class="discountPercentage">Discount ${
                   item.discountPercentage
                 }%</p>
@@ -42,3 +40,14 @@ function display(data) {
 }
 
 fetchData();
+
+// this is contact us form validation javascript code
+let firstName = document.querySelector(".Fname").value;
+let lastName = document.querySelector(".Lname").value;
+let email = document.querySelector(".email").value;
+let message = document.querySelector(".text-area").value;
+let contactForm = document.getElementById("contactForm")
+
+  .contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+  });
