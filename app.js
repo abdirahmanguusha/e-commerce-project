@@ -47,13 +47,13 @@ function display(data) {
 fetchData();
 
 
-// this is contact us form validation javascript code
-let firstName = document.querySelector(".Fname").value;
-let lastName = document.querySelector(".Lname").value;
-let email = document.querySelector(".email").value;
-let message = document.querySelector(".text-area").value;
-let contactForm = document.getElementById("contactForm")
+// // this is contact us form validation javascript code
+// let firstName = document.querySelector(".Fname").value;
+// let lastName = document.querySelector(".Lname").value;
+// let email = document.querySelector(".email").value;
+// let message = document.querySelector(".text-area").value;
+// let contactForm = document.getElementById("contactForm")
 
-  .contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-  });
+//   .contactForm.addEventListener("submit", (e) => {
+//     e.preventDefault();
+//   });

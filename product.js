@@ -30,6 +30,7 @@ function fullProductDetailsDisplay(data) {
           <button class="btn" id="remove-btn">-</button>
           <span class="count">0</span>
           <button class="btn" id="add-btn">+</button>
+          <button class="addtobag" id="add-btn">ADD TO BAG</button>
         </div>
       </div>
     </div>
