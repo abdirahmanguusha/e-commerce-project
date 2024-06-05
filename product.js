@@ -23,14 +23,14 @@ function fullProductDetailsDisplay(data) {
       </div>
       <div class="container-details">
         <h2 class="title">${data.title}</h2>
-        <p class="price">Price £${parseFloat(data.price).toFixed(2)}</p>
+        <p class="price">Price £ ${parseFloat(data.price).toFixed(2)}</p>
         <p class="discountPercentage">Discount ${data.discountPercentage}%</p>
         <p class="description">${data.description}</p>
         <div class="btns">
           <button class="btn" id="remove-btn">-</button>
           <span class="count">0</span>
           <button class="btn" id="add-btn">+</button>
-          <button class="addtobag" id="add-btn">ADD TO BAG</button>
+          <button class="btn" id="add-cart">ADD TO BAG</button>
         </div>
       </div>
     </div>

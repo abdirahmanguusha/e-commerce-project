@@ -27,7 +27,7 @@ function display(data) {
         <div class="img-container">
           <img class="product-image" src="${img}" alt="${item.title}">
         </div>
-        <p class="price">Price £${item.price.toFixed(2)}</p>
+        <p class="price">Price £ ${item.price.toFixed(2)}</p>
         <p class="discountPercentage">Discount ${item.discountPercentage}%</p>
       </div>
     `;
@@ -36,7 +36,7 @@ function display(data) {
   render.innerHTML = htmlContent;
 
   render.addEventListener("click", (event) => {
-    const productDiv = event.target.closest('.product'); // The closest product element
+    const productDiv = event.target.closest('.product'); 
     if (productDiv) {
       const productId = productDiv.getAttribute('data-id');
       window.location.href = `product.html?id=${productId}`;
