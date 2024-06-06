@@ -138,16 +138,24 @@ a:hover {
   margin: 5px 0;
 }
 
-.price {
+.price  {
   color: #e60023;
   font-weight: bold;
   margin-top: 15px;
+}
+.totalprice{
+  color: #e60045;
+  font-weight: bold;
+  margin-top: 26px;
+  text-align:center;
+
 }
 
 .discountPercentage {
   color: #008000;
   margin-bottom: 16px;
   margin-top: 9px;
+
 }
 
 .description {

@@ -95,7 +95,7 @@ a:hover {
   margin-top: 45px;
   flex-direction: column;
   flex-wrap: wrap;
-  box-shadow: 0 4px 8px rgba(25, 38, 44, 0.702), 0 6px 20px rgba(0, 0, 0, 0.503);
+  box-shadow: 0 4px 8px rgba(25, 38, 44, 0.656), 0 6px 20px rgba(0, 0, 0, 0.503);
   margin-top: 10px;
   text-align: left;
   cursor: pointer;
@@ -111,8 +111,7 @@ a:hover {
   float: left;
   padding: 5px;
   font-size: 26px;
-  color: rgb(52, 136, 139);
-}
+  color: #02051e;}
 
 .img-container {
   align-content: flex-end;
