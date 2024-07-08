@@ -58,7 +58,7 @@ function updateCountAndPrice(){
     updateCountAndPrice();
 
   })
-  removeBtn.addEventListener("cclick",()=>{
+  removeBtn.addEventListener("click",()=>{
     if(count>0){
       count--
       countSpan.textContent = count
