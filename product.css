@@ -211,6 +211,7 @@ a:hover {
 @media (max-width: 800px) {
   #product-details {
     width: 100%;
+    margin-bottom: 60px;
   }
   .container {
     display: flex;
@@ -265,7 +266,7 @@ a:hover {
 
   .btn {
     padding: 8px 12px;
-    font-size: 24px;
+    font-size: 17px;
   }
 
   .count {
@@ -275,7 +276,7 @@ a:hover {
   #add-cart {
     background-color: #007bff;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 9px;
     width: 240px;

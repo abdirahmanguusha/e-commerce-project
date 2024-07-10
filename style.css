@@ -200,3 +200,71 @@ a:hover {
     padding: 15px;
   }
 }
+
+
+/* about us css code  */
+/* External CSS - styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us__title {
+  font-size: 2.5em;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us__intro {
+  font-size: 1.2em;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-us__subtitle {
+  font-size: 1.8em;
+  color: #333333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-us__text {
+  font-size: 1.1em;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .about-us {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .about-us__title {
+    font-size: 2em;
+  }
+
+  .about-us__intro,
+  .about-us__text {
+    font-size: 1em;
+  }
+
+  .about-us__subtitle {
+    font-size: 1.5em;
+  }
+}
